@@ -1,0 +1,42 @@
+# Ignorer les fichiers de configuration VSCode
+.vscode/
+
+# Ignorer les extensions VSCode installées
+.vscode/extensions/
+
+# Ignorer les fichiers de log
+*.log
+
+# Ignorer les fichiers générés par Python (pyc, pyo, etc.)
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorer les environnements virtuels
+env/
+venv/
+.venv/
+
+
+# Ignorer les fichiers de tests générés par pytest
+*.coverage
+.coverage.*
+nosetests.xml
+pytest-debug.log
+
+# Ignorer les fichiers générés pour la distribution ou le build
+build/
+dist/
+*.egg-info/
+
+# Ignorer les fichiers d'IDE et d'éditeur
+.idea/
+*.swp
+
+# Ignorer les fichiers Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Fichiers spécifiques à certains projets, comme ceux d'un projet React/JS ou autres
+node_modules/
+yarn.lock
+package-lock.json
