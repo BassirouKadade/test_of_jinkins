@@ -1,7 +1,7 @@
 # My Python Project
 # Test Pipline with Jinkins
 
-A simple Python project .
+A simple Python project with jinkins  .
 
 ## Installation
 
